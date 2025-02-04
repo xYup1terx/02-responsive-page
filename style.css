@@ -4,6 +4,7 @@ body {
   color: #333;
   margin: 0;
   padding: 0;
+  font-size: 18px; /* Increased base font size */
 }
 
 header {
@@ -20,6 +21,7 @@ h1, h2, h3 {
 
 h1 {
   margin: 0;
+  font-size: 42px; /* Increased font size */
 }
 
 main {
@@ -73,6 +75,7 @@ section {
 
 h2 {
   margin-bottom: 8px;
+  font-size: 28px; /* Increased font size */
 }
 
 h2, h3 {
@@ -83,12 +86,12 @@ h2, h3 {
   list-style: none;
   padding: 0;
   margin: 0;
-  font-size: 14px;
+  font-size: 16px; /* Increased font size */
   color: #777;
 }
 
 .metadata li {
-  margin-right: 16px;
+  margin-right: 4px;
   display: inline-block;
 }
 
