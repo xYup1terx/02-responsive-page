@@ -30,6 +30,8 @@ main {
 
 section {
   background-color: #fff;
+  max-width: 900px;
+  margin: 0 auto;
   margin-bottom: 16px;
   padding: 16px;
   border-radius: 5px;
@@ -122,4 +124,33 @@ a:hover {
 .article img {
   margin-bottom: 20px;
   border-radius: 5px;
+  width: 100%;
+  height: auto;
+}
+
+/* Responsive adjustments for smaller screens */
+@media (max-width: 600px) {
+  h1 {
+    font-size: 24px;
+  }
+  h2 {
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  #featured-article h2 {
+    font-size: 28px;
+  }
+  h3 {
+    font-size: 18px;
+  }
+  p {
+    margin-bottom: 12px;
+    margin-top: 8px;
+  }
+  main, section {
+    padding: 8px;
+  }
+  #featured-article {
+    padding: 16px;
+  }
 }
